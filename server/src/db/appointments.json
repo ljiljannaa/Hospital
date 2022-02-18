@@ -1,0 +1,1 @@
+[{"_id":3,"doctorId":"3","name":"Branislav","lastName":"Anđelić","email":"branislav.andjelic@gmail.com","phone":"0655059590","day":{"year":2021,"month":3,"day":18},"hour":{"hour":10,"minute":30,"second":0}},{"_id":4,"doctorId":"4","name":"","lastName":"","email":"","phone":"","day":{"day":18,"month":3,"year":2021},"hour":{"hour":14,"minute":null}}]

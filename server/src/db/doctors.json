@@ -1,0 +1,22 @@
+[
+    {"_id": 1, "name": "Gerard", "lastName": "Acosta", "specialty": "pathologist", "age": 35},
+    {"_id": 2, "name": "Sean", "lastName": "Paine", "specialty": "cardiologist", "age": 63},
+    {"_id": 3, "name": "Emaan", "lastName": "Norman", "specialty": "immunologist", "age": 43},
+    {"_id": 4, "name": "Rohaan", "lastName": "Stubbs", "specialty": "dermatologist", "age": 31},
+    {"_id": 5, "name": "Denny", "lastName": "Legge", "specialty": "pathologist", "age": 46},
+    {"_id": 6, "name": "Ifrah", "lastName": "Wicks", "specialty": "cardiologist", "age": 43},
+    {"_id": 7, "name": "Keavy", "lastName": "Hodgson", "specialty": "dermatologist", "age": 58},
+    {"_id": 8, "name": "Millie-Mae", "lastName": "Dickens", "specialty": "cardiologist", "age": 39},
+    {"_id": 9, "name": "Blake", "lastName": "Miller", "specialty": "pathologist", "age": 47},
+    {"_id": 10, "name": "Kara", "lastName": "Hodges", "specialty": "immunologist", "age": 53},
+    {"_id": 11, "name": "Anisha", "lastName": "Mellor", "specialty": "immunologist", "age": 44},
+    {"_id": 12, "name": "Rhona", "lastName": "Wong", "specialty": "cardiologist", "age": 41},
+    {"_id": 13, "name": "Tiffany", "lastName": "Ewing", "specialty": "radiologist", "age": 36},
+    {"_id": 14, "name": "Neive", "lastName": "Amin", "specialty": "dermatologist", "age": 50},
+    {"_id": 15, "name": "Haiden", "lastName": "Spencer", "specialty": "radiologist", "age": 48},
+    {"_id": 16, "name": "Ashton", "lastName": "Conner", "specialty": "radiologist", "age": 33},
+    {"_id": 17, "name": "Betty", "lastName": "Person", "specialty": "dermatologist", "age": 56},
+    {"_id": 18, "name": "Nate", "lastName": "Gallegos", "specialty": "immunologist", "age": 42},
+    {"_id": 19, "name": "Nile", "lastName": "Foley", "specialty": "immunologist", "age": 40},
+    {"_id": 20, "name": "Zacharias", "lastName": "Hurst", "specialty": "radiologist", "age": 34}
+]

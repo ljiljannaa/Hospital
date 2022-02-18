@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-8">
+        <br><br><br>
+        <div class="row">
+            <div class="col-3 offset-1">
+                <ngb-datepicker [(ngModel)]="appoinment.day"></ngb-datepicker>
+            </div>
+            <div class="col-3 offset-3">
+                <br><br><br>
+                <ngb-timepicker [(ngModel)]="appoinment.hour"></ngb-timepicker>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-8 offset-1">
+                <form>
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-3 col-sm-label">Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="name" id="name" placeholder="First name" class="form-control" [(ngModel)]="appoinment.name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-sm-3 col-sm-label">Last name</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last name" class="form-control" [(ngModel)]="appoinment.lastName">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-sm-3 col-sm-label">Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" name="email" id="email" placeholder="Email" class="form-control" [(ngModel)]="appoinment.email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="phone" class="col-sm-3 col-sm-label">Phone number</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="phone" id="phone" placeholder="Phone number" class="form-control" [(ngModel)]="appoinment.phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <button class="btn btn-primary" type="submit" (click)="create()">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <app-doctor-details [hideButton]="true"></app-doctor-details>
+    </div>
+</div>

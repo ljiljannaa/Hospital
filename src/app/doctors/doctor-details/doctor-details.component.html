@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col text-center">
+        <h1>{{doctor.name}}</h1>
+        <p> Specialty: {{doctor.specialty}}</p>
+        <p>Age: {{doctor.age}}</p>
+        <br><br><br><br>
+
+        <h2>Working hours</h2>
+        <p>Monday: {{doctor.schedule.monday.start}} - {{doctor.schedule.monday.end}}</p>
+        <p>Tuesday: {{doctor.schedule.tuesday.start}} - {{doctor.schedule.tuesday.end}}</p>
+        <p>Wednesday: {{doctor.schedule.wednesday.start}} - {{doctor.schedule.wednesday.end}}</p>
+        <p>Thursday: {{doctor.schedule.thursday.start}} - {{doctor.schedule.thursday.end}}</p>
+        <p>Friday: {{doctor.schedule.friday.start}} - {{doctor.schedule.friday.end}}</p>
+        <br><br>
+
+        <button class="btn btn-primary" type="submit" [routerLink]="['/appointment', doctorId]" *ngIf="!hideButton">Make Appointment</button>
+    </div>
+</div>

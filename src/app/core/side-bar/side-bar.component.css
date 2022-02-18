@@ -1,0 +1,10 @@
+.sidebar {
+    padding-left: 20px;
+}
+
+a{
+    padding: 5px;
+    border-bottom: 1px solid lavender;
+    width: 100%;
+    
+}
